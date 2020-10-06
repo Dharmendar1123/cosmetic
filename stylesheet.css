@@ -80,6 +80,7 @@
 }
 .content_box{
     display: flex;
+
     text-align: center;
 }
 .content_box > div {
@@ -89,15 +90,19 @@
     background-color: olivedrab;
     color: white;
     padding: 20px;
+    margin: 5px;
 }
 .box2 {
-    border: olivedrab;
+    border-color: olivedrab;
+    border-style: solid;
     color: black;
+    margin: 5px;
 }
 .box3 {
     background-color: olivedrab;
     color: white;
     padding: 20px;
+    margin: 5px;
 }
 .feature_product {
     text-align: center;
