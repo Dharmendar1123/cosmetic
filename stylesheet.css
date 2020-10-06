@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 .top_bar {
     display: flex;
     align-items: center;
@@ -14,7 +18,7 @@
 }*/
 #categorie {
     padding: 5px;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(107, 72, 72);
     color: rgb(20, 20, 20);
 }
 .search_bar {
@@ -22,6 +26,10 @@
     margin-top: 15px;
     display: flex;
     margin-right: 100px;
+}
+.banners {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 .menu {
     width: 100%;
@@ -111,23 +119,24 @@
     padding: 30px;
     color: rgb(61, 61, 61);
 }
-.product {
+.products {
     display: grid;
-    justify-content: space-evenly;
-
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-column-gap: 0px; */
 }
 /* .row_1 { 
     display: flex;
 }*/
-.col_1 {
+/* .col_1 {
     text-align: center;
     float: left;
     width: 25%;
     padding: 10px;
-}
-.col_1 img {
+} */
+/* .col_1 img {
     padding: 10px;
-}
+} */
 .col_1 p {
     color: lightgray;
 }
@@ -137,15 +146,15 @@
 /*.row_2 {
     display: flex;
 }*/
-.col_2 {
+/* .col_2 {
     text-align: center;
     float: left;
     width: 25%;
     padding: 10px;
-}
-.col_2 img {
+} */
+/* .col_2 img {
     padding: 10px;
-}
+} */
 .col_2 p {
     color: lightgray;
 }
@@ -153,42 +162,91 @@
     display: flex;
     padding-bottom: 20px;
 }*/
-.col_3 {
+/* .col_3 {
     text-align: center;
     float: left;
     width: 25%;
     padding: 10px;
-}
-.col_3 img {
+} */
+/* .col_3 img {
     padding: 10px;
-}
+} */
 .col_3 p {
     color: lightgray;
 }
-.brands {
-    background-color: rgb(218, 218, 218);
-    display: grid;
-    justify-content: space-evenly;
 
-}
-.brands h1 {
+.brand_section h1 {
     text-align: center;
-    padding-top: 20px;
 }
-.row_4 {
+
+.brand_section {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.brands {
     display: flex;
-    padding-bottom: 20px;
+    justify-content: space-around;
 }
-.col_4 {
-    text-align: center;
-    float: left;
-    width: 25%;
+
+/* .brand_img {
+    background-color: rgb(218, 218, 218);
+    display: flex;
+} */
+
+.footer{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 25px;
+    margin: 0px auto;
+    padding: 30px 70px;
+    background: #e43228;
+    color: rgb(248, 247, 247);
+}
+
+.info {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.infoma {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.servizio {
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+
+.contatti {
+    grid-row: 1/3;
+    grid-column: 4/5;
+}
+
+.rint {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.payment {
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+.submit_form {
+    grid-row: 3/4;
+    grid-column: 4/5;  
+}
+.btn {
+    border: none;
+    color: white;
+    background-color: black;
     padding: 10px;
+    margin-top: 5px;
 }
-.col_4 img {
-    width: 75%;
-    cursor: pointer;
-}
+/* 
 .footer {
     background-color: rgb(206, 36, 36);
     color: white;
@@ -247,4 +305,11 @@
 }
 .social_media {
     float: right;
+} */
+.bottom_footer {
+    color: white;
+    background-color: #cc241b;
+    padding: 5px 0px 0px 30px;
+    margin-top: 30px;
+    display: flex;
 }
