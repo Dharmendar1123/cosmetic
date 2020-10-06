@@ -1,13 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .top_bar {
     display: flex;
     align-items: center;
+    padding: 20px;
 }
-.cosmatic_logo {
+/*.cosmatic_logo {
     padding-top: 20px;
     padding-bottom: 20px;
+}*/
+#categorie {
+    padding: 5px;
+    background-color: rgb(170, 170, 170);
+    color: rgb(20, 20, 20);
 }
 .search_bar {
-    direction: rtl;
+    float: right;
+    margin-top: 15px;
+    display: flex;
+    margin-right: 100px;
 }
 .menu {
     width: 100%;
@@ -33,6 +47,29 @@
     font-family: raleway regular;
     letter-spacing: 0.5px;
 }
+.menu ul li a{
+    display: block;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    background-color:gray;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul li {
+    width: 130px;
+    float: none;
+    background-color: lightgray;
+    display: list-item;
+    position: relative;
+    
+}
 .search_form {
     margin-top: 15px;
     float: right;
@@ -40,4 +77,158 @@
 }
 .banners side_banner1 {
     width: 60%;
+}
+.content_box{
+    display: flex;
+    text-align: center;
+}
+.content_box > div {
+    text-align: center;
+}
+.box1 {
+    background-color: olivedrab;
+    color: white;
+    padding: 20px;
+}
+.box2 {
+    border: olivedrab;
+    color: black;
+}
+.box3 {
+    background-color: olivedrab;
+    color: white;
+    padding: 20px;
+}
+.feature_product {
+    text-align: center;
+    padding: 30px;
+    color: rgb(61, 61, 61);
+}
+.row_1 {
+    display: flex;
+}
+.col_1 {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.col_1 img {
+    padding: 10px;
+}
+.col_1 p {
+    color: lightgray;
+}
+.cut_price {
+    color: lightgray;
+}
+.row_2 {
+    display: flex;
+}
+.col_2 {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.col_2 img {
+    padding: 10px;
+}
+.col_2 p {
+    color: lightgray;
+}
+.row_3 {
+    display: flex;
+    padding-bottom: 20px;
+}
+.col_3 {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.col_3 img {
+    padding: 10px;
+}
+.col_3 p {
+    color: lightgray;
+}
+.brands {
+    background-color: lightgray;
+}
+.brands h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.row_4 {
+    display: flex;
+    padding-bottom: 20px;
+}
+.col_4 {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.col_4 img {
+    width: 75%;
+    cursor: pointer;
+}
+.footer {
+    background-color: rgb(206, 36, 36);
+    color: white;
+    padding: 40px;
+}
+.info p {
+    padding: 5px 5px 5px 0px;
+
+}
+.rint {
+    padding-top: 30px;
+}
+.rint p {
+    padding: 5px 5px 5px 0px;
+}
+.first_row {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.infoma p {
+    padding: 5px 5px 5px 0px;
+
+}
+.servizio p {
+    padding: 5px 5px 5px 0px;
+
+}
+.contatti p {
+    padding: 5px 5px 5px 0px;
+}
+.payment {
+    padding-top: 30px;
+}
+.second_foot {
+    display: flex;
+}
+.submit_form {
+    float: right;
+}
+.btn {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top: 5px;
+}
+.bottom_footer {
+    color: white;
+    background-color: rgb(143, 0, 0);
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+
+}
+.social_media {
+    float: right;
 }
