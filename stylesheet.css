@@ -105,7 +105,9 @@
     color: rgb(61, 61, 61);
 }
 .product {
-    display: flex;
+    display: grid;
+    justify-content: space-evenly;
+
 }
 /* .row_1 { 
     display: flex;
