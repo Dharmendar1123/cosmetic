@@ -193,15 +193,13 @@
     background-color: rgb(206, 36, 36);
     color: white;
     padding: 0px;
-    display: grid;
-    justify-content: space-evenly;
 }
 .info p {
     padding: 5px 5px 5px 0px;
 
 }
 .rint {
-    padding-top: 30px;
+    padding: 30px 0px 0px 30px;
 }
 .rint p {
     padding: 5px 5px 5px 0px;
@@ -224,7 +222,7 @@
     padding: 5px 5px 5px 0px;
 }
 .payment {
-    padding-top: 30px;
+    padding: 30px 0px 0px 30px;
 }
 .second_foot {
     display: flex;
@@ -242,7 +240,7 @@
 .bottom_footer {
     color: white;
     background-color: rgb(143, 0, 0);
-    padding: 10px;
+    padding: 5px 0px 0px 30px;
     margin-top: 30px;
     display: flex;
 
