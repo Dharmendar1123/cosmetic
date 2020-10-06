@@ -9,24 +9,31 @@ body {
 
 .top_bar {
     display: flex;
-    align-items: center;
-    padding: 20px;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
 }
-/*.cosmatic_logo {
+.cosmatic_logo {
     padding-top: 20px;
     padding-bottom: 20px;
-}*/
+}
 #categorie {
     padding: 5px;
-    background-color: rgb(107, 72, 72);
+    align-items: center;
+    background-color: #ece8e8;
     color: rgb(20, 20, 20);
 }
 .search_bar {
-    float: right;
-    margin-top: 15px;
     display: flex;
-    margin-right: 100px;
+    align-items: center;
+    margin-top: 15px;
+    /* padding: 30px; */
+    /* margin-right: 100px; */
 }
+.search-img {
+    background: rgb(228, 11, 11);
+}
+
 .banners {
     display: grid;
     width: 75%;
@@ -35,6 +42,7 @@ body {
     grid-template-areas: 
         'b1 b1 b2'
         'b1 b1 b3';
+        
 }
 .b1 {
     grid-area: b1;
