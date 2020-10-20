@@ -44,8 +44,14 @@ body {
     grid-template-areas: 
         'b1 b1 b2'
         'b1 b1 b3';
-        
+    overflow: hidden;
 }
+.banners img {
+    width: 100%;
+    background-size: cover;
+}
+.carousel { overflow: hidden; }
+.item { overflow: hidden; }
 .b1 {
     grid-area: b1;
     object-fit: cover;
