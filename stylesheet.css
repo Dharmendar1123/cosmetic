@@ -49,8 +49,12 @@ body {
 .banners img {
     width: 100%;
     background-size: cover;
+    
 }
-.carousel { overflow: hidden; }
+.carousel {
+    overflow: hidden;
+    z-index: -1;
+}
 .item { overflow: hidden; }
 .b1 {
     grid-area: b1;
