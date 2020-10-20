@@ -6,6 +6,9 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+.navbar {
+    z-index: 1;
+}
 
 .top_bar {
     display: flex;
@@ -53,7 +56,6 @@ body {
 }
 .carousel {
     overflow: hidden;
-    z-index: -1;
 }
 .item { overflow: hidden; }
 .b1 {
